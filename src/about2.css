@@ -1,0 +1,80 @@
+/* .about-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-description2 {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .about-description2 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description3 p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-images3 {
+    flex: 1;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-images3 img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0.5rem;
+  } */
+  
+
+   .about-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+   .about-description3 {
+    flex: 0 0 60%;
+    padding: 1rem; 
+  } 
+  
+  .about-images3 {
+    flex: 1;
+    padding: 1rem;
+    text-align: right; 
+   
+  } 
+  .about-images3 {
+    width: 100%;
+    max-width: 7500px;
+   /* width: 50vw;
+  height: 50vh; */
+  text-align: right;
+}
+
+.about-images3 img {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0.5rem;
+    /* width: 50vw;
+    height: 50vh; */
+   /* Set max-width property to allow image to expand */
+}
+/* In the above code, we have reduced the flex property of .about-description3 to 0 0 60% and .about-images3 to 0 0 40% to decrease their widths. Additionally, we have added max-width: 100% to the img element inside .about-images3 to allow the image to expand to its maximum size within the container.
+
+You can adjust the percentage values according to your desired size and width for the image and content. */
+
+
+
+
+
+
+  /* Add any additional styling as needed */
+  

@@ -1,0 +1,65 @@
+/* ReviewPage.css */
+
+.review-page {
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .review-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .review-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .review-content {
+    flex: 1;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  /* StarRating.css */
+  /* Assuming you have a separate StarRating component with its own CSS */
+  
+  .star-rating {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .star-rating__star {
+    color: #ffcc00;
+    margin-right: 4px;
+  }
+  
+  .star-rating__star--empty {
+    color: #ddd;
+  }
+  
+  .star-rating__rating {
+    font-weight: bold;
+  }
+  

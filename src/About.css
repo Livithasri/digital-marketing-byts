@@ -1,0 +1,152 @@
+/* .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .about-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 24px;
+  }
+  
+  .about-text {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+   */
+
+   /* .about-container {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .about-description {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .about-description p {
+    margin-bottom: 10px;
+  }
+   */
+
+    .about-container {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-description {
+    flex-basis: 60%;
+    flex-grow: 1;
+    font-size: 16px;
+    margin-right: 40px;
+  }
+  
+  .about-image-container {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .about-image-left {
+    margin-right: 20px;
+  }
+  
+  .about-image-right {
+    margin-left: 20px;
+  }
+  .fi{
+    width:50%;
+  }
+    /* height:100px;
+  } */
+   
+
+   /* .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-description {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .about-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-images img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 0.5rem;
+  }
+   */

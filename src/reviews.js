@@ -1,0 +1,45 @@
+// import React from "react";
+
+// const Reviews = () => {
+//   return <div>Reviews</div>;
+// };
+
+// export default Reviews;
+
+// ReviewPage.js
+
+import React from 'react';
+import StarRating from './StarRating'; // assuming you have a StarRating component
+import './ReviewPage.css'; // assuming you have a ReviewPage.css file for custom CSS
+import r1 from './review.png';
+
+
+const ReviewPage = () => {
+  const reviews = [
+    { id: 1, name: 'John', rating: 5, comment: 'Great service!', image: 'data:image/jpeg;base64,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' },
+    { id: 2, name: 'Alice', rating: 4, comment: 'Good experience overall.', image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRm_HkgsMrseHrf3f4Xc2ItO65mQza475cUOAKhLr-QHWPE_Zp9' },
+    { id: 3, name: 'Bob', rating: 3, comment: 'Could be better.', image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRUk7hGfCI9ioD-qoYlg3SIhH37xqZMIac3lyFQS0mm3BCGyjkm' },
+  ];
+
+  return (
+   
+    <div className="review-page">
+       <img src={r1}/>
+      <h1>Customer Reviews</h1>
+      <div className="reviews-container">
+        {reviews.map(review => (
+          <div key={review.id} className="review-card">
+            <img src={review.image} alt={review.name} className="review-image" />
+            <div className="review-content">
+              <h3>{review.name}</h3>
+              <StarRating rating={review.rating} />
+              <p>{review.comment}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ReviewPage;

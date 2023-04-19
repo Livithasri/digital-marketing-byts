@@ -1,0 +1,34 @@
+.about-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-description1 {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .about-description1 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description1 p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-images1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-images1 img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0.5rem;
+  }
+  

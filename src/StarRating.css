@@ -1,0 +1,23 @@
+/* StarRating.css */
+/* In your main CSS file or in the component's CSS file */
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+.star-rating {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .star-rating__star {
+    color: #ffcc00;
+    margin-right: 4px;
+  }
+  
+  .star-rating__star--empty {
+    color: #ddd;
+  }
+  
+  .star-rating__rating {
+    font-weight: bold;
+  }
+  
